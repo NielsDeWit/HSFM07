@@ -1,0 +1,72 @@
+<html>
+<head>
+    <title>PEC Insights | Kaart 3</title>
+    <link rel="stylesheet" href="kaart1.css" />
+
+    <link rel="icon" type="image/x-icon" href="PIIcon.png" />
+
+
+  <style>
+    
+    html, body, #viewDiv {
+      padding: 0;
+      margin: 0;
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+  <link rel="stylesheet" href="https://js.arcgis.com/4.18/esri/themes/light/main.css">  <script src="https://js.arcgis.com/4.18/"></script>
+  <script>
+    require([
+      "esri/WebMap",
+      "esri/views/MapView"
+    ], function(WebMap, MapView) {
+
+      var webmap = new WebMap({
+        portalItem: {
+          id: "41281c51f9de45edaf1c8ed44bb10e30"
+        }
+      });
+
+      var view = new MapView({
+        container: "viewDiv",
+        map: webmap
+      });
+      
+    });
+  </script>
+</head>
+
+
+<body>
+
+    <ul>
+
+        <li> <a href="index.html"><img src="PILOGO.png" alt="PEC Insights Logo" width="200px"></a></li>
+        <li><a href="kaart1.html">   Kaart 1       </a></li>
+        <li><a href="Kaart2.html">   Kaart 2       </a></li>
+        <li><a href="kaart3.html">   Kaart 3       </a></li>
+        <li><a href="kaart4.html">   Kaart 4       </a></li>
+    </ul>
+
+    <div class="intro">
+      <h1>Tekst</h1>
+      Het stadion van PEC Zwolle is het MAC³PARK stadion, gelegen in Zwolle, Nederland. Het stadion is de thuisbasis van de voetbalclub PEC Zwolle en biedt plaats aan ruim 14.000 toeschouwers. Het werd officieel geopend in 2009 en heeft sindsdien een belangrijke rol gespeeld in de rijke voetbalgeschiedenis van de club.
+      <br><br>
+      Het MAC³PARK stadion heeft moderne faciliteiten en biedt een geweldige voetbalervaring voor zowel spelers als fans. Het stadion beschikt over vier overdekte tribunes die een uitstekend zicht bieden op het veld, waardoor elke plek in het stadion een goede plek is om van de wedstrijd te genieten. Bovendien zorgt de sfeervolle inrichting ervoor dat supporters een intense en meeslepende voetbalbeleving ervaren.
+      <br><br>
+      Naast de wedstrijden van PEC Zwolle worden in het stadion ook regelmatig andere evenementen georganiseerd, zoals concerten en bedrijfsevenementen. Het stadion is goed bereikbaar met het openbaar vervoer en er zijn voldoende parkeermogelijkheden in de buurt.
+      <br><br>
+      Het stadion van PEC Zwolle heeft een speciale plek in het hart van de club en haar fans. Het vertegenwoordigt de trots en passie van de club en biedt een plek waar supporters samenkomen om hun team aan te moedigen. Het is een plek waar herinneringen worden gemaakt en gedeeld, en waar voetballiefhebbers de opwinding en emotie van de sport kunnen ervaren.
+      <br><br>
+      Kortom, het MAC³PARK stadion is een modern en sfeervol voetbalstadion dat een belangrijk onderdeel vormt van de identiteit van PEC Zwolle en een geweldige plek is voor voetbalfans om van wedstrijden en andere evenementen te genieten.
+      </p>
+          </div>
+
+    <div id="viewDiv"></div>
+    <div class="menu">
+
+
+</div>
+</body>
+</html>

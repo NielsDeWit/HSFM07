@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="PEC_Zwolle_DB" id="PEC_Zwolle_DB">
+	<SimpleField name="Goal" type="string"></SimpleField>
+	<SimpleField name="Minuten" type="string"></SimpleField>
+	<SimpleField name="Doelpunten maker" type="string"></SimpleField>
+	<SimpleField name="Latitude" type="float"></SimpleField>
+	<SimpleField name="Longitude" type="float"></SimpleField>
+</Schema>
+<Folder><name>PEC_Zwolle_DB</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#PEC_Zwolle_DB">
+		<SimpleData name="Goal">1</SimpleData>
+		<SimpleData name="Minuten">2</SimpleData>
+		<SimpleData name="Doelpunten maker">Vellios</SimpleData>
+		<SimpleData name="Latitude">52.517</SimpleData>
+		<SimpleData name="Longitude">6.12</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>6.12,52.517</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#PEC_Zwolle_DB">
+		<SimpleData name="Goal">2</SimpleData>
+		<SimpleData name="Minuten">4</SimpleData>
+		<SimpleData name="Doelpunten maker">Vellios</SimpleData>
+		<SimpleData name="Latitude">52.517</SimpleData>
+		<SimpleData name="Longitude">6.12</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>6.12,52.517</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#PEC_Zwolle_DB">
+		<SimpleData name="Goal">3</SimpleData>
+		<SimpleData name="Minuten">12</SimpleData>
+		<SimpleData name="Doelpunten maker">Vellios</SimpleData>
+		<SimpleData name="Latitude">52.517</SimpleData>
+		<SimpleData name="Longitude">6.12</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>6.12,52.517</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#PEC_Zwolle_DB">
+		<SimpleData name="Goal">4</SimpleData>
+		<SimpleData name="Minuten">14</SimpleData>
+		<SimpleData name="Doelpunten maker">Medunjanin</SimpleData>
+		<SimpleData name="Latitude">52.517</SimpleData>
+		<SimpleData name="Longitude">6.121</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>6.121,52.517</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#PEC_Zwolle_DB">
+		<SimpleData name="Goal">5</SimpleData>
+		<SimpleData name="Minuten">20</SimpleData>
+		<SimpleData name="Doelpunten maker">Taha</SimpleData>
+		<SimpleData name="Latitude">52.517</SimpleData>
+		<SimpleData name="Longitude">6.12</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>6.12,52.517</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#PEC_Zwolle_DB">
+		<SimpleData name="Goal">6</SimpleData>
+		<SimpleData name="Minuten">27</SimpleData>
+		<SimpleData name="Doelpunten maker">Vellios</SimpleData>
+		<SimpleData name="Latitude">52.517</SimpleData>
+		<SimpleData name="Longitude">6.12</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>6.12,52.517</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#PEC_Zwolle_DB">
+		<SimpleData name="Goal">7</SimpleData>
+		<SimpleData name="Minuten">31</SimpleData>
+		<SimpleData name="Doelpunten maker">Van den Belt</SimpleData>
+		<SimpleData name="Latitude">52.517</SimpleData>
+		<SimpleData name="Longitude">6.12</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>6.12,52.517</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#PEC_Zwolle_DB">
+		<SimpleData name="Goal">8</SimpleData>
+		<SimpleData name="Minuten">46</SimpleData>
+		<SimpleData name="Doelpunten maker">Thy</SimpleData>
+		<SimpleData name="Latitude">52.516</SimpleData>
+		<SimpleData name="Longitude">6.121</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>6.121,52.516</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#PEC_Zwolle_DB">
+		<SimpleData name="Goal">9</SimpleData>
+		<SimpleData name="Minuten">59</SimpleData>
+		<SimpleData name="Doelpunten maker">Beelen</SimpleData>
+		<SimpleData name="Latitude">52.516</SimpleData>
+		<SimpleData name="Longitude">6.12</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>6.12,52.516</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#PEC_Zwolle_DB">
+		<SimpleData name="Goal">10</SimpleData>
+		<SimpleData name="Minuten">62</SimpleData>
+		<SimpleData name="Doelpunten maker">Thy</SimpleData>
+		<SimpleData name="Latitude">52.516</SimpleData>
+		<SimpleData name="Longitude">6.12</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>6.12,52.516</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#PEC_Zwolle_DB">
+		<SimpleData name="Goal">11</SimpleData>
+		<SimpleData name="Minuten">74</SimpleData>
+		<SimpleData name="Doelpunten maker">Thy</SimpleData>
+		<SimpleData name="Latitude">52.516</SimpleData>
+		<SimpleData name="Longitude">6.12</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>6.12,52.516</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#PEC_Zwolle_DB">
+		<SimpleData name="Goal">12</SimpleData>
+		<SimpleData name="Minuten">89</SimpleData>
+		<SimpleData name="Doelpunten maker">Van den Belt</SimpleData>
+		<SimpleData name="Latitude">52.516</SimpleData>
+		<SimpleData name="Longitude">6.12</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>6.12,52.516</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#PEC_Zwolle_DB">
+		<SimpleData name="Goal">13</SimpleData>
+		<SimpleData name="Minuten">91</SimpleData>
+		<SimpleData name="Doelpunten maker">Van den Berg</SimpleData>
+		<SimpleData name="Latitude">52.516</SimpleData>
+		<SimpleData name="Longitude">6.12</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>6.12,52.516</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

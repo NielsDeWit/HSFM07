@@ -1,0 +1,125 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: white
+}
+
+li:hover {
+text-decoration: underline;
+}
+    
+.menu {
+     position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+#map { height: 180px; position: relative; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  font-family: Tahoma, sans-serif;
+  }
+  
+  li {
+  float: left;
+  }
+  
+  li a {
+  display: block;
+  color: white;
+  padding: 20px 40px;
+  text-decoration: none;
+  }
+
+
+
+.slogan {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    font-family: Tahoma, sans-serif;
+    font-size: 300%;
+}
+
+.icon {
+    position: absolute;
+    top: 97%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  font-family: Tahoma, sans-serif;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 20px 40px;
+  text-decoration: none;
+}
+
+th {
+      padding: 20px 20px;
+}
+
+th :hover {
+  color: black;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.containert {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  font-family: Tahoma, sans-serif;
+  font-size: 250%;
+}
+
+.test {
+  font-family: Tahoma, sans-serif;
+  font-size: 200%;
+  text-align: center;
+  padding-left: 30%;
+  padding-right: 30%;
+  color: #1e59ae;
+}
+
+.test2 {
+  font-family: Tahoma, sans-serif;
+  font-size: 150%;
+  text-align: center;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #0b162a;
+  color: white;
+  font-family: Tahoma, sans-serif;
+}

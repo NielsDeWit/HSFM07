@@ -1,79 +1,138 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>PEC Insights | Home</title>    
-  <link rel="stylesheet" href="index.css">
+  <head>
+    <title>PEC Insights | Home</title>
+    <link rel="stylesheet" href="index.css" />
 
-  <link rel="icon" type="image/x-icon" href="PIIcon.png">
-</head>
+    <link rel="icon" type="image/x-icon" href="PIIcon.png" />
 
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
 
-<body>
-    
-    
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+
+    <script src="StadionPEC.js"></script>
+
+    <script src="index.js"></script>
+  </head>
+
+  <body>
     <div class="container">
-        
-        <img src="Banner.png" alt="banner" width="100%" "float:left">
-        
-         <div class="menu">
-            <ul>
-        
-                <li> <a href="index.html"><img src="PILOGO.png" alt="PEC Insights Logo" width="200px"></a></li>
-                <li><a href="kaart1.html">   Kaart 1       </a></li>
-                <li><a href="#kaart2">   Kaart 2       </a></li>
-                <li><a href="#kaart3">   Kaart 3       </a></li>
-                <li><a href="#kaart4">   Kaart 4       </a></li>
-            </ul>
-        </div>
-        
-        <div class="slogan">
-            <i><b>Data voor de echte blauwvinger</b></i>
-        </div>
-        
-         <div class="icon">
-        <a target="_blank" href="img_5terre.jpg">
-    <img src="PIIcon.png" alt="frame" width="6%">
-        </a></div>
-        
+      <img src="Banner.png" alt="banner" width="100%" "float:left">
+
+      <div class="menu">
+        <ul>
+          <li>
+            <a href="index.html"
+              ><img src="PILOGO.png" alt="PEC Insights Logo" width="200px"
+            /></a>
+          </li>
+          <li><a href="kaart1.html"> Het Stadion </a></li>
+          <li><a href="Kaart2.html"> Tegenstanders </a></li>
+          <li><a href="kaart3.html"> Posities </a></li>
+          <li><a href="kaart4.html"> Records </a></li>
+        </ul>
+      </div>
+
+      <div class="slogan">
+        <i><b>Data voor de echte blauwvinger</b></i>
+      </div>
+
+      <div class="icon">
+        <a target="_blank">
+          <img src="PIIcon.png" alt="frame" width="6%" />
+        </a>
+      </div>
     </div>
-<br><br><br><br><br>
-<table>
-  <tr>
-      <div class="gallery">
-      <th><a target="_blank" href="img_5terre.jpg">
-    <img src="Frame.png" alt="frame" width="250" height="250">
-  </a></th>
-      </div>
-      
-      <div class="gallery">
-    <th><a target="_blank" href="img_5terre.jpg">
-    <img src="Frame.png" alt="frame" width="250" height="250">
-  </a></th>
-      </div>
-    
-      <div class="gallery">
-    <th><a target="_blank" href="img_5terre.jpg">
-    <img src="Frame.png" alt="frame" width="250" height="250">
-  </a></th>
-      </div>
-      
-      <div class="gallery">
-    <th><a target="_blank" href="img_5terre.jpg">
-    <img src="Frame.png" alt="frame" width="250" height="250">
-  </a></th>
-      </div>
-  </tr>
+    <br /><br /><br /><br /><br />
+
+    <div class="test">
+    <b>
+      Dit is dé Website voor de PEC Zwolle-supporter met liefde vóór data, dóór de Pec Zwolle-supporter met liefde voor data.<br>
+    </b> <br>
+    </div>
+      <div class="test2">
+      <i>Op deze website vind je informatie over ons stadion, tegenstanders, posities van spelers en vind je interessante statistieken over onze records!
+      <br><br>
+      </i>
+ 
+  </div>
+
+    <table>
+      <tr>
+        <div class="gallery">
+          <th>
+            <a target="_blank" href="kaart1.html">
+              <img
+                src="Atlas Website Illu_Tekengebied 1 kopie 7.png"
+                alt="frame"
+                width="250"
+                height="250"
+              />
+            </a>
+          </th>
+        </div>
+
+        <div class="gallery">
+          <th>
+            <a target="_blank" href="Kaart2.html">
+              <img src="Tegenstanders.png"   alt="frame" width="250" height="250" />
+            </a>
+          </th>
+        </div>
+
+        <div class="gallery">
+          <th>
+            <a target="_blank" href="kaart3.html">
+              <img src="positities_Tekengebied 1 kopie 7.png" alt="frame" width="250" height="250" />
+            </a>
+          </th>
+        </div>
+
+        <div class="gallery">
+          <th>
+            <a target="_blank" href="kaart4.html">
+              <img src="Records_Tekengebied 1 kopie 7.png" alt="frame" width="250" height="250" />
+            </a>
+          </th>
+        </div>
+      </tr>
     </table>
-    
-    <div class="GraphContainer">
-    
-        <img src="Bram%20Grafiekje.png" alt="frame" width="100%">
-    
-        <div class="Graph">
-            <iframe title="PEC Zwolle en Ajax seizoen 21/22" aria-label="Interactive line chart" id="datawrapper-chart-jmnHN" src="https://datawrapper.dwcdn.net/jmnHN/1/" scrolling="no" frameborder="0" style="border: none;" width="250%" height="350"></iframe>    
-        </div>
+
+    <div class="containert">
+      <img src="Bram Grafiekje.png" alt="Bram" style="width:100%;">
+
+
+
+      <div class="centered">
+        
+        <b>
+          Bekijk hier de data per speeldag van de competitiestrijd van afgelopen seizoen!<br><br>
+         </b>  
+
+        <iframe title="PEC Zwolle VS Heracles Almelo"
+        aria-label="Interactive line chart" id="datawrapper-chart-BDdF5"
+        src="https://datawrapper.dwcdn.net/BDdF5/1/"
+        scrolling="no" frameborder="0" style="border: none;"
+        width="100%;" height="400" data-external="1"></iframe>
+
+
     
     </div>
-    
-</body>
+    </div>
+  </body>
+<br>
+  <footer>
+    <b><p>Website Gemaakt door: Niels de Wit<br></b>
+    <i>Website gemaakt in het kader van HSFM09 Webcartografie</p></i>
+  </footer>
+
 </html>

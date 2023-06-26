@@ -1,0 +1,46 @@
+html{
+    font-family: Tahoma, sans-serif;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white
+  }
+  
+  li:hover {
+  text-decoration: underline;
+  }
+      
+  .menu {
+       position: absolute;
+      top: 8px;
+      left: 16px;
+  }
+  
+  #map { height: 180px; position: relative; }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    font-family: Tahoma, sans-serif;
+    }
+    
+    li {
+    float: left;
+    }
+    
+    li a {
+    display: block;
+    color: white;
+    padding: 20px 40px;
+    text-decoration: none;
+    }
+
+#map1{
+    height: 500px;
+    width: 100%;
+}

@@ -1,0 +1,1 @@
+var pecZwolle = {"type":"FeatureCollection","features":[{"type":"Feature","properties":{"MAC3PARK Stadion":"Zwolle"},"geometry":{"coordinates":[[[6.121574765995206,52.51674729289297],[6.121239495736091,52.51774534501689],[6.120132073481841,52.51760772589114],[6.120465472517083,52.51660913856688],[6.121574765995206,52.51674729289297]]],"type":"Polygon"},"id":0}]}

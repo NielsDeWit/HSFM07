@@ -1,0 +1,58 @@
+html{
+    font-family: Tahoma, sans-serif;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: black;
+font-family: Tahoma, sans-serif;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+padding: 20px 40px;
+text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    color: #1e59ae;
+}
+
+img {
+    float: left;
+  }
+
+.intro{
+   padding-left: 10%;
+   padding-right: 10%;
+}
+
+  #map { height: 300px; position: relative;
+    float: right;
+width: 50%;
+height: 500px; }
+
+
+.infogram-embed {
+    position: absolute;
+    width: 50%;
+    align: center
+}
+
+footer {
+    text-align: center;
+    margin-top: 27%;
+    background-color: #0b162a;
+    color: white;
+    font-family: Tahoma, sans-serif;
+    position: relative;
+  }
